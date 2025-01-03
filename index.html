@@ -220,27 +220,68 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img width="150"  src="images/GAT.jpg" />
+                <div class="project shadow-large" style="display: flex; flex-direction: column; align-items: flex-start; padding: 20px; box-sizing: border-box; position: relative;">
+                    <!-- Text Section -->
+                    <div class="project" style="max-width: 600px; padding: 20px; box-sizing: border-box; position: relative; margin: 0 auto;">
+                        <h3 style="margin-bottom: 15px;">CalHacks Hackathon Project: AI Legal Advisor Using LLM</h3>
+                        <ul style="list-style-type: disc; padding-left: 20px; text-align: justify; margin: 0;">
+                            <li>Curated and preprocessed a legal dataset comprising 36,000 case files, generating over 70 million tokens for training.</li>
+                            <li>Fine-tuned Falcon-7B LLM on Google Cloud's TPU clusters for enhanced contextual understanding in legal domains.</li>
+                            <li>Deployed the model on GCP and integrated Flask for creating a RESTful API, enabling smooth deployment and model interaction.</li>
+                            <li>Developed a Retrieval Augmented Generation (RAG) system, enabling Lex.ai to retain and utilize contextual information effectively.</li>
+                            <li>Achieved significant insights into LLM fine-tuning, RAG systems, and advanced cloud-based AI deployments through hands-on experience.</li>
+                        </ul>
+                        <div id="skills" style="padding: 10px 0;">
+                            <ul style="display: flex; gap: 10px; flex-wrap: wrap; list-style: none; padding: 0; margin: 0;">
+                                <li style="background: #f0f0f0; padding: 5px 10px; border-radius: 5px;">Python</li>
+                                <li style="background: #f0f0f0; padding: 5px 10px; border-radius: 5px;">PyTorch</li>
+                                <li style="background: #f0f0f0; padding: 5px 10px; border-radius: 5px;">Flask</li>
+                                <li style="background: #f0f0f0; padding: 5px 10px; border-radius: 5px;">GCP</li>
+                            </ul>
+                        </div>
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>GAT for Recommendation System</h3>
-                        <ul style="text-align: justify;">
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large" style="display: flex; flex-direction: column; align-items: flex-start; padding: 20px; box-sizing: border-box; position: relative;">
+                    <!-- Text Section -->
+                    <div class="project" style="max-width: 600px; padding: 20px; box-sizing: border-box; position: relative; margin: 0 auto;">
+                        <h3 style="margin-bottom: 15px;">NVIDIA RAPIDS AI Hackathon by ODSC</h3>
+                        <ul style="list-style-type: disc; padding-left: 20px; text-align: justify; margin: 0;">
+                            <li>Analyzed a massive Halloween dataset of 12 million records with 106 unique features, including attributes like fang
+                                length and howl rate, using NVIDIA RAPIDS for GPU-accelerated processing.</li>
+                            <li>Developed a data processing pipeline using Polars and cuDF for GPU-optimized data handling.</li>
+                            <li>Developed machine learning models to rank and classify monster attributes, leveraging the RAPIDS cuML library
+                                for high-speed training and inference.</li>
+                        </ul>
+                        <div id="skills" style="padding: 10px 0;">
+                            <ul style="display: flex; gap: 10px; flex-wrap: wrap; list-style: none; padding: 0; margin: 0;">
+                                <li style="background: #f0f0f0; padding: 5px 10px; border-radius: 5px;">Python</li>
+                                <li style="background: #f0f0f0; padding: 5px 10px; border-radius: 5px;">Polars</li>
+                                <li style="background: #f0f0f0; padding: 5px 10px; border-radius: 5px;">NVIDIA RAPIDS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large" style="display: flex; flex-direction: column; align-items: flex-start; padding: 20px; box-sizing: border-box; position: relative;">
+                    <!-- Text Section -->
+                    <div class="project" style="max-width: 600px; padding: 20px; box-sizing: border-box; position: relative; margin: 0 auto;">
+                        <h3 style="margin-bottom: 15px;">GAT for Recommendation System</h3>
+                        <ul style="list-style-type: disc; padding-left: 20px; text-align: justify; margin: 0;">
                             <li>Fine-tuned a pre-trained Graph Attention Network (GAT) to improve user-item recommendations by weighing key interactions</li>
                             <li>Re-trained the model on specific domain data with graph-based regularization, boosting top-N recommendation accuracy by 25%</li>
                             <li>Used PyTorch Geometric for modeling and TensorFlow for fine-tuning on large-scale datasets</li>
                         </ul>
-                        <div id="skills" style="padding:0">
-                            <ul>
-                                <li>Python</li>
-                                <li>PyTorch</li>
-                                <li>TensorFlow</li>
+                        <div id="skills" style="padding: 10px 0;">
+                            <ul style="display: flex; gap: 10px; flex-wrap: wrap; list-style: none; padding: 0; margin: 0;">
+                                <li style="background: #f0f0f0; padding: 5px 10px; border-radius: 5px;">Python</li>
+                                <li style="background: #f0f0f0; padding: 5px 10px; border-radius: 5px;">PyTorch</li>
+                                <li style="background: #f0f0f0; padding: 5px 10px; border-radius: 5px;">TensorFlow</li>
                             </ul>
                         </div>
                     </div>
-                    <!-- End .project-info -->
                 </div>
                 <!-- End .project -->                
                 <div class="project shadow-large">
